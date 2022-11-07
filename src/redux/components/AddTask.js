@@ -55,7 +55,7 @@ const AddTask = ({ AddTaskAction }) => {
       value={inputTextDate}
       onChange={e => setInputTextDate(e.target.value)}
       id="outlined-basic"
-      label="Task Deadline"
+      label="Task Deadline (mm-dd-yyyy)"
       variant="outlined"
       required
       fullWidth

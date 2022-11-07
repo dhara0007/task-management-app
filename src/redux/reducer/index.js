@@ -2,8 +2,10 @@ import { combineReducers } from 'redux';
 import TaskReducer from './TaskReducer';
 import VisibilityFilterReducer from './VisibilityFilterReducer';
 
-export default combineReducers({
+const reducers=  combineReducers({
   TaskReducer,
   VisibilityFilterReducer
 })
+
+export default reducers;
 
