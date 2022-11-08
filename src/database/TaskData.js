@@ -4,9 +4,9 @@
       name:"First Task Name",
       description: "First Task Details",
       duedate: "2022-08-11",
-      toDo: false,
+      toDo: true,
       inProgress:false,
-      done:true
+      done:false
     },
     {
       id: 2,
@@ -23,8 +23,8 @@
       description:"Third Task Details",
       duedate: "2022-08-10",
       toDo: false,
-      inProgress:false,
-      done:true
+      inProgress:true,
+      done:false
     },
     {
       id: 4,
@@ -41,8 +41,8 @@
       description:"Fifth Task Details",
       duedate: "2022-07-07",
       toDo: false,
-      inProgress:true,
-      done:false
+      inProgress:false,
+      done:true
     }
   ]
 
