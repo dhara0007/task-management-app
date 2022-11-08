@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from './redux/components/layout';
 import AddTask from './redux/components/AddTask';
 import FilterList from './redux/components/FilterList';
-import VisibleTaskList from './redux/reducer/VisibilityFilterReducer';
+import VisibleTaskList from './redux/reducer/VisibleTodoList';
 export const ICON_SIZE = 'large';
 
 const App = () => (
